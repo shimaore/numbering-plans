@@ -9,7 +9,7 @@ This project aims to build a list of international numbering plans for the purpo
 - helping to build LCR routing tables;
 - helping to build rating tables.
 
-It aims to be updated regularly to adapt to changes in international numbering plans. Contributions are welcome in the form of a Pull Request on github.com!
+It aims to be updated regularly to adapt to changes in international numbering plans. Contributions are welcome in the form of a Pull Request on [github](https://github.com/shimaore/numbering-plans)!
 
 Validating numbers
 ------------------
