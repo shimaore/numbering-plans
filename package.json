@@ -13,6 +13,8 @@
     "url": "github.com/shimaore/numbering-plans"
   },
   "author": "Stéphane Alnet <stephane@shimaore.net> (http://stephane.shimaore.net/)",
+  "contributors": [
+  ],
   "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/shimaore/numbering-plans/issues"
