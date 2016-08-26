@@ -1,4 +1,4 @@
-    chai = require 'chai'
+    {expect} = chai = require 'chai'
     chai.should()
 
     numbering_plans = require '..'
@@ -8,8 +8,12 @@
         describe "#{cc}", ->
           it 'should have a name', ->
             data.should.have.property 'name'
+            expect(data.name).to.be.a 'string'
+            expect(data.name).to.not.be.null
+            expect(data.name).to.not.eql ''
           it 'should have a plan', ->
             data.should.have.property 'plan'
+            expect(data.plan).to.be.an 'object'
 
         for own prefix, plan of data.plan
           do (prefix,plan) ->

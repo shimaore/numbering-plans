@@ -35,6 +35,12 @@
       it 'should ignore numbers it does not know about', ->
         expect plans.validate '4372617278'
           .to.be.null
+        expect plans.validate '881612345678'
+          .to.be.null
+
+      it 'should reject invalid country codes', ->
+        expect plans.validate '978123456'
+          .to.be.false
 
       it 'should accept E.164 numbers', ->
         a = plans.validate '+33972342713'

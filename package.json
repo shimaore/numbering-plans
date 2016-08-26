@@ -4,7 +4,7 @@
   "description": "International Numbering Plans",
   "main": "index.js",
   "scripts": {
-    "prepublish": "coffee -c *.coffee.md plans/*.coffee.md",
+    "prepublish": "coffee -c *.coffee.md plans/*.coffee.md; node -e 'console.log(JSON.stringify(require(\"./plans\")))' > plans.json",
     "pretest": "npm install",
     "test": "mocha"
   },
