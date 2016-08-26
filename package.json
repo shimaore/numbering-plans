@@ -1,6 +1,6 @@
 {
   "name": "numbering-plans",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "International Numbering Plans",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,7 @@
     "url": "github.com/shimaore/numbering-plans"
   },
   "author": "Stéphane Alnet <stephane@shimaore.net> (http://stephane.shimaore.net/)",
-  "contributors": [
-  ],
+  "contributors": [],
   "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/shimaore/numbering-plans/issues"
