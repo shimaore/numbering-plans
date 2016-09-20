@@ -6,6 +6,7 @@ Specified plans
       239: require './plans/239'
       33: require './plans/33'
       41: require './plans/41'
+      590: require './plans/590'
       62: require './plans/62'
       # 94: require './plans/94'
 
