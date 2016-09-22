@@ -13,6 +13,7 @@ Specified plans
       594: require './plans/594'
       596: require './plans/596'
       62: require './plans/62'
+      # 7: require './plans/7'
       # 94: require './plans/94'
 
 Yet-to-be-specified plans
