@@ -33,7 +33,7 @@
           .should.be.false
 
       it 'should ignore numbers it does not know about', ->
-        expect plans.validate '4372617278'
+        expect plans.validate '4472617278'
           .to.be.null
         expect plans.validate '881612345678'
           .to.be.null
