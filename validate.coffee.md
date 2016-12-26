@@ -28,7 +28,7 @@ Split the number in country-code vs nationally significant numbers
         national_number = number.substr prefix_length
         numbering_plan = numbering_plans[country_code]
 
-        debug 'looking up', {prefix_length,country_code,national_number,numbering_plan}
+        debug 'looking up', {prefix_length,country_code,national_number,numbering_plan_name: numbering_plan?.name}
         if numbering_plan?
           return {country_code,national_number,numbering_plan}
 
@@ -71,7 +71,7 @@ Returns information about the destination if the number is correct; returns `tru
       return null if plan is null
 
       {country_code,national_number,numbering_plan} = plan
-      debug 'analyzing number', {number, country_code, national_number, numbering_plan }
+      debug 'analyzing number', {number, country_code, national_number, numbering_plan_name: numbering_plan?.name }
 
 CC-level blocking
 -----------------
