@@ -4,6 +4,10 @@
     describe 'validate', ->
       plans = require '..'
 
+      it 'should reject missing numbers', ->
+        plans.validate null
+          .should.be.false
+
       it 'should accept non-geo FR numbers', ->
         a = plans.validate '33972342713'
         a.should.have.property 'fixed', true

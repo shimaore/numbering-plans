@@ -6,6 +6,9 @@ Longest-match lookup of country-code
 
     @numbering_plan_of = numbering_plan_of = (numbering_plans,number) ->
 
+      unless number?
+        return false
+
 [Rec. E.164](https://www.itu.int/itu-t/recommendations/rec.aspx?rec=10688) section 6 limits the length of an E.164 number to 15 digits.
 Note how we might use `_` to indicate a national-only (e.g. short) number.
 
