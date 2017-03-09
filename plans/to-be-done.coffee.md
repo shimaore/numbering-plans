@@ -76,7 +76,7 @@ and
       299: min:6, max:16, country: 'gl', name: 'Greenland'
       30: min:6, max:16, country: 'gr', name: 'Greece'
       31: min:6, max:16, country: 'nl', name: 'Netherlands'
-      32: min:6, max:16, country: 'be', name: 'Belgium'
+      # 32: min:6, max:16, country: 'be', name: 'Belgium'
       # 33: min:6, max:16, country: 'fr', name: 'France'
       34: min:6, max:16, country: 'es', name: 'Spain'
       350: min:6, max:16, country: 'gi', name: 'Gibraltar'
