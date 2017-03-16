@@ -50,3 +50,13 @@
         a = plans.validate '+33972342713'
         a.should.have.property 'fixed', true
         a.should.have.property 'geographic', false
+
+      it 'should accept BE numbers', ->
+        a = plans.validate '+3264212345'
+        a.should.have.property 'fixed', true
+        a.should.have.property 'geographic', true
+        a = plans.validate '+3264412345'
+        a.should.have.property 'fixed', true
+        a.should.have.property 'geographic', true
+        a = plans.validate '+3247712345'
+        a.should.have.property 'mobile', true
