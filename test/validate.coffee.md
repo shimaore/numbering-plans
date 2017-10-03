@@ -60,3 +60,9 @@
         a.should.have.property 'geographic', true
         a = plans.validate '+3247712345'
         a.should.have.property 'mobile', true
+
+      it 'should accept RU numbers', ->
+        a = plans.validate '+78692512345'
+        a.should.have.property 'geographic', true
+        a = plans.validate '+78124512345'
+        a.should.have.property 'geographic', true
