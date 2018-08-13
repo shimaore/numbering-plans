@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "prepublishOnly": "npm run build",
-    "build": "coffee -c *.coffee.md plans/*.coffee.md; node -e 'console.log(JSON.stringify(require(\"./plans\")))' > plans.json",
-    "pretest": "npm run build && npm install --only=dev && coffee -c test/*.coffee.md",
+    "build": "npm install --only=dev && coffee -c *.coffee.md plans/*.coffee.md; node -e 'console.log(JSON.stringify(require(\"./plans\")))' > plans.json",
+    "pretest": "npm run build && coffee -c test/*.coffee.md",
     "test": "mocha"
   },
   "repository": {
