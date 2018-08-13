@@ -102,6 +102,7 @@ and
       380: min:6, max:16, country: 'ua', name: 'Ukraine'
       381: min:6, max:16, country: 'rs', name: 'Serbia'
       382: min:6, max:16, country: 'me', name: 'Montenegro'
+      383: min:6, max:16, country: 'xk', name: 'Kosovo'
       385: min:6, max:16, country: 'hr', name: 'Croatia'
       386: min:6, max:16, country: 'si', name: 'Slovenia'
       387: min:6, max:16, country: 'ba', name: 'Bosnia and Herzegovina'
