@@ -1,6 +1,6 @@
 {
   "name": "numbering-plans",
-  "version": "2.5.5",
+  "version": "2.5.6",
   "description": "International Numbering Plans",
   "main": "index.js",
   "scripts": {
