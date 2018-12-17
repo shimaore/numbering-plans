@@ -22,6 +22,14 @@
         plans.validate '3397234713'
           .should.be.false
 
+      it 'should reject invalid FR numbers', ->
+        plans.validate '33199001234'
+          .should.be.false
+
+      it 'should reject invalid FR numbers', ->
+        plans.validate '33263781781'
+          .should.be.false
+
       it 'should accept FR short numbers', ->
         plans.validate '33_112'
           .should.have.property 'emergency', true
