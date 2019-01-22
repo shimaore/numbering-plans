@@ -12,6 +12,7 @@ Specified plans
       41: require './plans/41'
       43: require './plans/43'
       508: require './plans/508'
+      52: require './plans/52'
       590: require './plans/590'
       594: require './plans/594'
       596: require './plans/596'

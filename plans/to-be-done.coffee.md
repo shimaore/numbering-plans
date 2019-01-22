@@ -131,7 +131,7 @@ and
       # 508: min:6, max:16, country: 'pm', name: 'Saint Pierre and Miquelon'
       509: min:6, max:16, country: 'ht', name: 'Haiti'
       51: min:6, max:16, country: 'pe', name: 'Peru'
-      52: min:6, max:16, country: 'mx', name: 'Mexico'
+      # 52: min:6, max:16, country: 'mx', name: 'Mexico'
       53: min:6, max:16, country: 'cu', name: 'Cuba'
       54: min:6, max:16, country: 'ar', name: 'Argentina'
       55: min:6, max:16, country: 'br', name: 'Brazil'
