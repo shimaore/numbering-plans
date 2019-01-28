@@ -74,7 +74,7 @@ and
       297: min:6, max:16, country: 'aw', name: 'Aruba'
       298: min:6, max:16, country: 'fo', name: 'Faroe Islands'
       299: min:6, max:16, country: 'gl', name: 'Greenland'
-      30: min:6, max:16, country: 'gr', name: 'Greece'
+      # 30: min:6, max:16, country: 'gr', name: 'Greece'
       31: min:6, max:16, country: 'nl', name: 'Netherlands'
       # 32: min:6, max:16, country: 'be', name: 'Belgium'
       # 33: min:6, max:16, country: 'fr', name: 'France'

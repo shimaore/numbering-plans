@@ -7,6 +7,7 @@ Specified plans
       247: require './plans/247'
       262: require './plans/262'
       269: require './plans/269'
+      30: require './plans/30'
       32: require './plans/32'
       33: require './plans/33'
       41: require './plans/41'
