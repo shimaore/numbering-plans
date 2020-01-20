@@ -54,6 +54,10 @@
         expect plans.validate '978123456'
           .to.be.false
 
+      it 'should reject unknown country codes', ->
+        expect plans.validate '34963861234'
+          .to.be.null
+
       it 'should accept E.164 numbers', ->
         a = plans.validate '+33972342713'
         a.should.have.property 'fixed', true
